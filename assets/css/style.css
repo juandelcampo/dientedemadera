@@ -47,6 +47,7 @@ h6 {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+  
 }
 
 .back-to-top i {
@@ -2055,6 +2056,14 @@ section {
   line-height: 1;
 }
 
+#footer .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-family: "Bebas Neue";
+}
+
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #fff;
@@ -2133,4 +2142,40 @@ section {
 }
 .diente {
   width: 5%;
+}
+
+.float{
+	
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:13px;
+  left: 15px; 
+	padding-top: 5px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+
+	font-size:20px;
+  text-align: center;
+  
+	
+	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+  
+	
+}
+
+@media screen and (max-width: 768px) {
+  .float {
+    
+	right:10px;
+  }
+}
+
+.red {
+  color: #bd2326;
 }
