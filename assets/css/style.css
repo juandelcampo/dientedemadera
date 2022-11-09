@@ -300,7 +300,8 @@ h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  /* bottom: 15px; */
+ justify-content: center;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -311,8 +312,10 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   color: #111111;
+  justify-content: center;
+ 
 }
 
 .navbar-mobile a:hover,
