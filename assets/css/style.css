@@ -441,7 +441,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
   position: relative;
 }
@@ -902,9 +902,8 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 20px;
+  justify-content: center;
+  padding: inherit;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -928,9 +927,10 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: rgba(255, 255, 255, 0.4);
-  margin: 0 5px 0 0;
-  font-size: 28px;
+  color: rgba(209, 209, 209, 0.4);
+  margin: 0 5px 5px 0;
+  font-size: 120px;
+  align-items: center;
   display: inline-block;
   transition: 0.3s;
 }
@@ -2171,11 +2171,33 @@ section {
 
 @media screen and (max-width: 768px) {
   .float {
-    
 	right:10px;
+  }
+  .vgb {
+    width: 10%;
   }
 }
 
 .red {
   color: #bd2326;
+}
+
+.vgb {
+  width: 60%;
+  display: inline-block
+}
+
+.container3 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 20%;
+}
+
+@media screen and (max-width: 500px){
+  .vgb{
+    width:350px;
+    justify-content: center;
+  }
+  
 }
