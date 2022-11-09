@@ -799,7 +799,7 @@ section {
   float: left;
   color: #e03a3c;
   font-size: 40px;
-  line-height: 0;
+  /* line-height: 0; */
 }
 
 .services .icon-box h4 {
@@ -2183,8 +2183,13 @@ section {
 }
 
 .vgb {
-  width: 60%;
-  display: inline-block
+ 
+  float:right
+}
+
+.vgb1{
+  height: 5rem;
+  float:right
 }
 
 .container3 {
